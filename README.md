@@ -8,8 +8,8 @@ Creating variable, storing numbers, strings, and booleans (Creating Variables, U
 Store the result of comparisons in variables (Comparing Numbers, Comparing Strings, Discovering Types)
 
 ## Conditional Statements
-Code conditionals to build programs that make decisions
-(Formatting Strings, Making Decisions, Using Conditions, Coding Else Statements, Incorporating Elif, Using Complex Decisions)
+Code conditionals to build programs that make decisions (Formatting Strings, Making Decisions, Using Conditions, Coding Else Statements, Incorporating Elif, Using Complex Decisions)
 
 ## Loops
+Create loops to repeat line of code (Self-assigning and Operators, While Loops, Stopping While Loops, Controlling While Loops, For Loops)
 
