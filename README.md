@@ -13,3 +13,9 @@ Code conditionals to build programs that make decisions (Formatting Strings, Mak
 ## Loops
 Create loops to repeat line of code (Self-assigning and Operators, While Loops, Stopping While Loops, Controlling While Loops, For Loops)
 
+## Organizing Data (Lists)
+Create lists to organize groups of values (Grouping Data in Lists, Changing Data in Lists, Updating Lists, Looping over Lists, Deciding with Lists)
+
+## Using Lists
+Use methods to gain insight from the values in lists (Finding Extreme Data, Sorting Data, Summing Data, Joining Lists, Counting Elements)
+
