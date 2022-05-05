@@ -19,3 +19,16 @@ Create lists to organize groups of values (Grouping Data in Lists, Changing Data
 ## Using Lists
 Use methods to gain insight from the values in lists (Finding Extreme Data, Sorting Data, Summing Data, Joining Lists, Counting Elements)
 
+## Using Strings
+Use methods to manipulate strings in usefule ways (Splitting Strings, Updating Strings)
+
+## Intermediate Python
+Identify situations that require managing data types
+
+## Functions
+Code functions to make code reusable and easier to read (Reusing Code with Functions, Creating Parameters, Returning Values, Using Multiple Parameters, Understanding Functions, Functions and Variable Scope, Deciding with Functions, Functions with Lists, Functions with Loops)
+
+## Tuples, Dictionaries, and Sets
+Identify the correct data structures to store data
+
+## List Comprehensions
