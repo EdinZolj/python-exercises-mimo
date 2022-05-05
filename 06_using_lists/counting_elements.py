@@ -9,6 +9,7 @@ print("for sometimes: " + str(answer.count("sometimes")))
 
 free_seats = [False, False, True, True, False]
 print("Number of free Seats: " + str(free_seats.count(True)))
+print(f"Number of free Seats: {free_seats.count(True)}")
 
 #if we dont know the exact number, but only if an element like "suger" exists, we use the "in" keyword.
 
