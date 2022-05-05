@@ -26,3 +26,16 @@ rented_cars += 3
 available = total - rented_cars
 
 print(f"{available} available cars")
+
+
+#Programm that keeps track of email inbox and how many unread emails we have.
+
+unread = 54
+
+print(f"You have {unread} unread emails")
+
+new = 5
+unread = unread + new
+
+print(f"You got {new} new emails")
+print(f"You have now {unread} unread emails")
