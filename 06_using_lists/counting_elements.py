@@ -18,3 +18,18 @@ ingredients = ["flour", "butter", "sugar", "eggs"]
 
 has_sugar = "sugar" in ingredients
 print("Ingredients has sugar: " + str(has_sugar))
+
+#Analyze collection of product ratings, by counting how many one and five-star ratings are and display them.
+
+ratings = [5, 5, 3, 1, 1, 1, 4, 5, 3, 5]
+
+five_star = ratings.count(5)
+one_star = ratings.count(1)
+
+amounts = [five_star, one_star]
+
+print("Five star rating:")
+print(amounts[0])
+
+print("One star rating:")
+print(amounts[1])
