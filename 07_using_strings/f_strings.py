@@ -43,4 +43,4 @@ print("----------------------")
 print(f"Round {current_round +1}")
 player_1_score = 20
 player_2_score = 5
-print(f"{player_1} defeats {player_2} by {player_1_score - player_2_score} points")
+print(f"{player_1} defeats {player_2} by {player_1_score - player_2_score}")
