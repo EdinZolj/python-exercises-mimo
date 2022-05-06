@@ -1,4 +1,4 @@
-#Program creates accounts for users that have verified their emil and have a strong password.
+# Program creates accounts for users that have verified their emil and have a strong password.
 
 is_strong = True
 is_verified = False

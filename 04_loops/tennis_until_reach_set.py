@@ -1,4 +1,4 @@
-#App keep track of tennis games until it reaches a set of 6 games.
+# App keep track of tennis games until it reaches a set of 6 games.
 
 games = 0
 set_finished = False

@@ -1,5 +1,5 @@
-#Using if, elif and else conditions to calculate a rideshare fare depending on the chosen ride type.
-#Here in this example: How much a "Uber user" pays for a ride.
+# Using if, elif and else conditions to calculate a rideshare fare depending on the chosen ride type.
+# Here in this example: How much a "Uber user" pays for a ride.
 
 ride_type = "Black"
 credits = 4

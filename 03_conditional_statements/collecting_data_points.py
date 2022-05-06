@@ -1,4 +1,4 @@
-#Program checks if there are enough data points within a dataset.
+# Program checks if there are enough data points within a dataset.
 
 minimum_points = 100
 data_points = 150

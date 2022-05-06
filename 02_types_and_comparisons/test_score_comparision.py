@@ -1,4 +1,4 @@
-#Compares two test scores and tells us which is higher.
+# Compares two test scores and tells us which is higher.
 
 score_1 = 98.5
 score_2 = 97.6

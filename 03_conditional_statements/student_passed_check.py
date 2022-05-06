@@ -1,4 +1,4 @@
-#Program checks with "and and "or" how well he did in a class 
+# Program checks with "and and "or" how well he did in a class 
 
 avarage = 86
 attendance = 88

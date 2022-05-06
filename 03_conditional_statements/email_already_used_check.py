@@ -1,4 +1,4 @@
-#Program checks if an email adress has already been used.
+# Program checks if an email adress has already been used.
 
 email = "johnsmith@email.com"
 is_duplicate = True

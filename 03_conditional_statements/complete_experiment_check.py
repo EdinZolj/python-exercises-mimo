@@ -1,4 +1,4 @@
-#Program checks if an experiment is complete.
+# Program checks if an experiment is complete.
 
 trials = 5
 data_points = 160

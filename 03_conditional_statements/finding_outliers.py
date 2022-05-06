@@ -1,4 +1,4 @@
-#Program checks if a number is an outlier in the dataset and set the variable "outlier" to be True if its is.
+# Program checks if a number is an outlier in the dataset and set the variable "outlier" to be True if its is.
 
 upper_limit = 91
 lower_limit = 24

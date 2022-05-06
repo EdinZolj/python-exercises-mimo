@@ -1,4 +1,4 @@
-#Program that keeps track of a personal's savings and updates if the person has made purchases or earned money.
+# Program that keeps track of a personal's savings and updates if the person has made purchases or earned money.
 
 goal = 150
 savings = 70

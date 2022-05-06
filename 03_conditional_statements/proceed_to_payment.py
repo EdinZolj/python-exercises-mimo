@@ -1,4 +1,4 @@
-#Program uses conditional statement to confirm payment process
+# Program uses conditional statement to confirm payment process
 
 subscribed = True
 accepted_terms = True

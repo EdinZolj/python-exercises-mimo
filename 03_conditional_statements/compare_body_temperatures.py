@@ -1,4 +1,4 @@
-#Program that checks if a body is in a healthy range.
+# Program that checks if a body is in a healthy range.
 
 low = 97
 high = 99

@@ -1,4 +1,4 @@
-#Count the elements in a list using if-statement
+# Count the elements in a list using if-statement
 
 users = ["Sarah", "Mike", "Ella"]
 print(len(users))

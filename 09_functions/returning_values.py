@@ -1,6 +1,6 @@
-#A function can return a value to the code that called it. 
-#To return something from a function we add the return keyword followed by the value to return.
-#A function can return any type of value.
+#  function can return a value to the code that called it. 
+# To return something from a function we add the return keyword followed by the value to return.
+# A function can return any type of value.
 
 def age_label(age):
     lable = "User age: " + age

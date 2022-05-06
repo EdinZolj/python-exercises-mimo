@@ -1,5 +1,5 @@
-#A list by using indices to manage andd update a list of company's stock values.
-#By storing the latest, highest, and lowest stock value and update when new values are recorded.
+# A list by using indices to manage andd update a list of company's stock values.
+# By storing the latest, highest, and lowest stock value and update when new values are recorded.
 
 apple_stocks = [298.18, 304.18, 289.23]
 

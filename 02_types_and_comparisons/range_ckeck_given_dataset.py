@@ -1,4 +1,4 @@
-#Program checks if a data point is within the appropriate range for the given dataset.
+# Program checks if a data point is within the appropriate range for the given dataset.
 
 low = 55
 high = 135

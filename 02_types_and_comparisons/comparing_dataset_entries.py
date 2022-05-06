@@ -1,5 +1,5 @@
-#Using booleans and comparisons to compare the data of two students from a collection of grade submissions.
-#by saving the id, average grade, and recent test score in variables for each of the two students.
+# Using booleans and comparisons to compare the data of two students from a collection of grade submissions.
+# by saving the id, average grade, and recent test score in variables for each of the two students.
 
 id_1 = "#4"
 average_grade_1 = "A"

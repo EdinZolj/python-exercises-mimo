@@ -1,4 +1,4 @@
-#Program manage soil humidity data received from a greenhouse monitor. Using the list to track and update at over five days.
+# Program manage soil humidity data received from a greenhouse monitor. Using the list to track and update at over five days.
 
 humidity_level = [87, 83, 89, 88, 87]
 

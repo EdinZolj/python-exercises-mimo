@@ -1,4 +1,4 @@
-#Keeping track of our followers. Program will alert us when we reach one million or let us know how many we have left.
+# Keeping track of our followers. Program will alert us when we reach one million or let us know how many we have left.
 
 followers = 999991
 one_mil = 1000000

@@ -1,4 +1,4 @@
-#Program that recommend/checks, when to buy stocks by using
+# Program that recommend/checks, when to buy stocks by using
 
 stock_a = 20
 stock_b = 70

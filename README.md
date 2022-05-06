@@ -23,7 +23,7 @@ Use methods to gain insight from the values in lists (Finding Extreme Data, Sort
 Use methods to manipulate strings in usefule ways (Splitting Strings, Updating Strings)
 
 ## Intermediate Python
-Identify situations that require managing data types
+Identify situations that require managing data types (Casting)
 
 ## Functions
 Code functions to make code reusable and easier to read (Reusing Code with Functions, Creating Parameters, Returning Values, Using Multiple Parameters, Understanding Functions, Functions and Variable Scope, Deciding with Functions, Functions with Lists, Functions with Loops)

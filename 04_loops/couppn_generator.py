@@ -1,5 +1,4 @@
-#Program creates multiple discount coupon codes.
-#
+# Program creates multiple discount coupon codes.
 
 base = "www.homeflix.com"
 coupon = "signup/coupon"

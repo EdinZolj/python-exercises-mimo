@@ -1,4 +1,4 @@
-#Program that analyzes a patients heart rate. Using comparisons to check if the heart rate is too low or too high and tell the patient if they schould worry about their health.
+# Program that analyzes a patients heart rate. Using comparisons to check if the heart rate is too low or too high and tell the patient if they schould worry about their health.
 
 heart_rate = 77
 

@@ -1,5 +1,5 @@
-#Using string comparisons to lable survey data and gain insights about the fitness apps users.
-#Cecking users survey answers regarding activity frequency and intensity, label them, and display the results.
+# Using string comparisons to lable survey data and gain insights about the fitness apps users.
+# Cecking users survey answers regarding activity frequency and intensity, label them, and display the results.
 
 frequency = "once a week"
 intensity = "low"

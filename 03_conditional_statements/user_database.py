@@ -1,4 +1,4 @@
-#Program use a condition to check if a user has been added to a database.
+# Program use a condition to check if a user has been added to a database.
 
 user_added = False
 user = "Becca"

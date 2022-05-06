@@ -1,4 +1,4 @@
-#Code that helps an arcade machine find the highest score from a list of scores.
+# Code that helps an arcade machine find the highest score from a list of scores.
 
 user_score = [12, 42, 55, 100, 11, 22]
 highest = user_score[0]

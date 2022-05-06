@@ -1,4 +1,4 @@
-#Program notifies a user about the last activity on their social media.
+# Program notifies a user about the last activity on their social media.
 
 action = "reply"
 

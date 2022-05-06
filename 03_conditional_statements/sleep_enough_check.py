@@ -1,4 +1,4 @@
-#Keeping track of the hours we've slept and use conditional statements to check if we've slept enough.
+# Keeping track of the hours we've slept and use conditional statements to check if we've slept enough.
 
 hours_slept = 7
 

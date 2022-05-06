@@ -1,4 +1,4 @@
-#"self-assignment" is when we set a variable to its own value.
+# "self-assignment" is when we set a variable to its own value.
 
 wallet = 3
 wallet = wallet
@@ -14,7 +14,7 @@ name = name + " John"
 print(name)
 
 
-#Programm that updates how many cars we've rented and how many are available.
+# Programm that updates how many cars we've rented and how many are available.
 
 total = 100
 rented_cars = 50
@@ -28,7 +28,7 @@ available = total - rented_cars
 print(f"{available} available cars")
 
 
-#Programm that keeps track of email inbox and how many unread emails we have.
+# Programm that keeps track of email inbox and how many unread emails we have.
 
 unread = 54
 

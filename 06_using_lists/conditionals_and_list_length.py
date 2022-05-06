@@ -1,4 +1,4 @@
-#Program checks the team size and decide on the number of rounds left in a game.
+# Program checks the team size and decide on the number of rounds left in a game.
 
 team_1 = ["Mia", "Lisa", "Liam"]
 team_2 = ["James", "Try", "Ava"]

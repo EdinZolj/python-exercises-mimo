@@ -1,5 +1,5 @@
-#Type function "type()"
-#Sometimes we need to change values from one type to another.
+# Type function "type()"
+# Sometimes we need to change values from one type to another.
 
 from re import sub
 

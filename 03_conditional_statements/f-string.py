@@ -1,4 +1,4 @@
-#Program shows different f-string examples
+# Program shows different f-string examples
 
 name = "John"
 print("Hello, " + name + "!")

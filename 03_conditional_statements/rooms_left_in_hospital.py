@@ -1,4 +1,4 @@
-#Program updates the rooms left in a hospital as it gets new patients.
+# Program updates the rooms left in a hospital as it gets new patients.
 
 empty = 25
 new_patients = 23

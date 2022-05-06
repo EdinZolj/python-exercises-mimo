@@ -1,4 +1,4 @@
-#Program that see how the amount stored in a bank acount increases over time, with a given rate by using while loop.
+# Program that see how the amount stored in a bank acount increases over time, with a given rate by using while loop.
 
 account = 100
 interest_rate = 0.004
