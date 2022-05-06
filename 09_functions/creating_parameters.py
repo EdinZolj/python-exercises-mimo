@@ -8,3 +8,19 @@ def greet(name):
 
 greet("April")
 greet("Leslie")
+
+
+#Functions need "multible paramenters" to perform tasks on more pieces of data, like a new players first and last name.
+
+def display(first_name, last_name):
+    print(first_name + " " + last_name)
+
+display("Edin", "Zolj")
+
+
+def show_winners(first, second, third):
+    print("First place: " + first)
+    print("Second place: " + second)
+    print("Third place: " + third)
+
+show_winners("Andrina", "Edin", "Edina")
