@@ -16,4 +16,9 @@ passengers = ["June", "Sam", "Lee"]
 count_passengers(passengers)
 
 
-def get_winner
+def get_winner(top_players):
+    winner = top_players[0]
+    print(f"Game winner: {winner}")
+
+top_players = ["Jay", "Meg", "Cy"]
+get_winner(top_players)
