@@ -51,3 +51,10 @@ def update_first_place(leaderboard, player):
 leaderboard = ["Jay", "Meg", "Cy"]
 leaderboard = update_first_place(leaderboard, "Lena")
 print(leaderboard)
+
+
+def has_two_for_one(basket):    # Check if the user qualifies for a two-for-one discount by checking if the length of basket is at least 2.
+    print(len(basket) >= 2)
+
+basket_items = ["t-shirts", "jeans", "jeans"]
+has_two_for_one(basket_items)
