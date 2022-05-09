@@ -2,6 +2,9 @@
 # Paratemers are like variables storing the value we pass to a function.
 # Inside the function, we can use the list operations, like len(), etc..
 
+from unicodedata import name
+
+
 def display_programs(movies):
     print(f"Airing tonight: {movies}")
 
@@ -22,6 +25,23 @@ def get_winner(top_players):
 
 top_players = ["Jay", "Meg", "Cy"]
 get_winner(top_players)
+
+
+def update_first_place(leaderboard, player):
+    leaderboard[0] = player
+    return leaderboard
+
+leaderboard = ["Jay", "Meg", "Cy"]
+leaderboard = update_first_place(leaderboard, "Lena")
+print(leaderboard)
+
+
+def set_initials(names, initial):   # it updates the name at index 0 to its initial
+    names[0] = initial
+    print(names)
+
+author_names = ["Francis", "Scott", "Firtzgerald"]
+set_initials(author_names, "F.")
 
 
 def update_first_place(leaderboard, player):
