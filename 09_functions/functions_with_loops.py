@@ -54,3 +54,22 @@ def show_next_track():
         print(f"Next up: {track}")
 
 show_next_track()
+
+
+def show_next_track(playlist):
+    for track in playlist:
+        print(f"Next up: {track}")
+
+beatles = ["Hey Jude", "Helter Skelter", "Something"]
+show_next_track(beatles)
+
+
+def show_next_track(playlist):
+    for track in playlist:
+        print(f"Next up: {track}")
+
+beatles = ["Hey Jude", "Helter Skelter", "Something"]
+beethoven = ["Symphony No. 1", "Symphony No. 9"]
+
+show_next_track(beethoven)
+show_next_track(beatles)
