@@ -22,3 +22,12 @@ def get_winner(top_players):
 
 top_players = ["Jay", "Meg", "Cy"]
 get_winner(top_players)
+
+
+def update_first_place(leaderboard, player):
+    leaderboard[0] = player
+    return leaderboard
+
+leaderboard = ["Jay", "Meg", "Cy"]
+leaderboard = update_first_place(leaderboard, "Lena")
+print(leaderboard)
