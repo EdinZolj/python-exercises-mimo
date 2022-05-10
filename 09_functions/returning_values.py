@@ -24,3 +24,10 @@ def sign_up(user):
 
 result = sign_up("Desmond")
 print(result)
+
+
+def get_area(height):
+    width = 26;
+    return width * height
+
+print(f"Rectangle area: {get_area(100)}")
