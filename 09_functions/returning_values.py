@@ -1,7 +1,6 @@
 #  function can return a value to the code that called it. 
 # To return something from a function we add the return keyword followed by the value to return.
 # A function can return any type of value.
-# By forgeting to add the return statement, we will return a "None"
 
 def age_label(age):
     lable = "User age: " + age
@@ -46,3 +45,9 @@ def add_ten(number):
     return result
 
 print(f"Result: {add_ten(20)}")
+
+
+def reject_cookies(user):
+    user + ": No Cookies";      # By forgeting to add the return statement, we will return a "None"    
+
+print(reject_cookies ("Erica"))
