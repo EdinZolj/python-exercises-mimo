@@ -1,6 +1,7 @@
 #  function can return a value to the code that called it. 
 # To return something from a function we add the return keyword followed by the value to return.
 # A function can return any type of value.
+# By forgeting to add the return statement, we will return a "None"
 
 def age_label(age):
     lable = "User age: " + age
@@ -26,8 +27,22 @@ result = sign_up("Desmond")
 print(result)
 
 
+def sign_up(user):
+    status = user + " signed up"
+    return status
+
+print(sign_up("Edin"))
+
+
 def get_area(height):
     width = 26;
     return width * height
 
 print(f"Rectangle area: {get_area(100)}")
+
+
+def add_ten(number):
+    result = 10 + number
+    return result
+
+print(f"Result: {add_ten(20)}")
