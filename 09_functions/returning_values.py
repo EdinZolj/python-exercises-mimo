@@ -51,3 +51,10 @@ def reject_cookies(user):
     user + ": No Cookies";      # By forgeting to add the return statement, we will return a "None"    
 
 print(reject_cookies ("Erica"))
+
+
+def get_email(name, year, domain):
+    return name + year + domain
+
+email = get_email("Edin", "1979", "@hotmail.com")
+print(email)
