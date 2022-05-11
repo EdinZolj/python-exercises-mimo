@@ -1,8 +1,9 @@
 # Morse Encoder - Program converts a set of numbers to morse code.
 # We will replace each number of the passed code parameter with its morse correspondent and return the result.
+# Replace returns the original string if the string to be replaced isnt found.
 
 def convert_to_morse(code):
-    
+
     code = code.replace("1", ".----")
     code = code.replace("2", "..---")
     code = code.replace("3", "...--")
