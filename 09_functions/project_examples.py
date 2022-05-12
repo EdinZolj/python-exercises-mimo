@@ -22,3 +22,6 @@ print(f"Initiatil code: {lock_code}")
 
 morse = convert_to_morse(lock_code)
 print(f"Morse code: {morse}")
+
+
+# Fare split calculator - 
