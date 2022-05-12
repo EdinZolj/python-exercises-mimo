@@ -24,4 +24,5 @@ morse = convert_to_morse(lock_code)
 print(f"Morse code: {morse}")
 
 
-# Fare split calculator - 
+# Fare split calculator - Program uses multiple paramenter to create a funtion that splits a Doober fare between several users.
+
