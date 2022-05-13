@@ -2,9 +2,6 @@
 # We will replace each number of the passed code parameter with its morse correspondent and return the result.
 # Replace returns the original string if the string to be replaced isnt found.
 
-from xml.sax.handler import feature_namespace_prefixes
-
-
 def convert_to_morse(code):
 
     code = code.replace("1", ".----")
@@ -66,3 +63,8 @@ def calculator(num_1, num_2, op):
     print(f"{num_1} {op} {num_2} = {result}")
 
 calculator(5, 10, "+")
+
+
+# Common friend checker - find out if a user is a common friend amongst two other users.
+# Checks if the user is in each of the friends lists and then use the & operator to check the resulting booleans.
+
