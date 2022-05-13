@@ -49,5 +49,18 @@ print(f"Each pays: € {shared_cost}")
 
 
 # Calculator - Simple Calculator that can add, subtract and multiply numbers.
-# Function that takes two numbers and an operator as its parameters.
+# Function that takes two numbers and an operator as its parameters, and if & elif statements to perform the correct calculation.
 
+def calculator(num_1, num_2, op):
+    result = 0
+
+    if op == "+":
+        result = num_1 + num_2
+
+    elif op == "-":
+        result = num_1 - num_2
+
+    elif op == "*":
+        result = num_1 * num_2
+
+    
