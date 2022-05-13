@@ -65,4 +65,4 @@ def calculator(num_1, num_2, op):
 
     print(f"{num_1} {op} {num_2} = {result}")
 
-calculator(5, 10, "*")
+calculator(5, 10, "+")
