@@ -68,3 +68,17 @@ calculator(5, 10, "+")
 # Common friend checker - find out if a user is a common friend amongst two other users.
 # Checks if the user is in each of the friends lists and then use the & operator to check the resulting booleans.
 
+def is_common_friend(user, friends_a, friends_b):
+
+    is_friend_a = friends_a.count(user) >= 1
+    is_firend_b = friends_b.count(user) >= 1
+
+    is_common = is_friend_a & is_firend_b
+
+    return is_common
+
+friends_andrina = ["Lynn", "Stefi", "Eva"]
+friends_claudio = ["Kim", "Lynn", "Steve"]
+common_lynn = is_common_friend("Lynn", friends_andrina, friends_claudio)
+
+print(f"Lynn is common friend: {common_lynn}")
