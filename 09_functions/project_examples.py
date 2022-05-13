@@ -46,3 +46,8 @@ feature_cost = 0.5
 shared_cost = split_fare(fare_cost, passengers, feature_cost)
 
 print(f"Each pays: € {shared_cost}")
+
+
+# Calculator - Simple Calculator that can add, subtract and multiply numbers.
+# Function that takes two numbers and an operator as its parameters.
+
