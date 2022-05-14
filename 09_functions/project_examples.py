@@ -89,7 +89,8 @@ print(f"Lynn is common friend: {common_lynn}")
 
 
 # Classes schduler - Function to loops to match a list of classes to available time slots.
-#A llop that runs for each class, joins it with a time slot at the same index, and saves the schedule in a new list.
+# A loop that runs for each class, joins it with a time slot at the same index, and saves the schedule in a new list.
+# Function that uses a loop to match each index of clsses and times to create a new list of scheduled classes.
 
 def schedule_classes(classes, times):
     schedule = []
@@ -97,3 +98,12 @@ def schedule_classes(classes, times):
     index = 0
     while index < len(classes):
         scheduled_class = classes[index] + ": " + times[index]
+        schedule.append(scheduled_class)
+        index += 1
+
+    return schedule
+
+classes = ["Algebra", "History", "Biology", "Swimming"]
+times = ["9a.m.", "11a.m.", "1p.m.", "3p.m."]
+schedule = schedule_classes(classes, times)
+print(f"Mondays schedule: {schedule}")
