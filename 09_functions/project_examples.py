@@ -84,4 +84,6 @@ common_lynn = is_common_friend("Lynn", friends_andrina, friends_claudio)
 print(f"Lynn is common friend: {common_lynn}")
 
 
-#
+# Classes schduler - Function to loops to match a list of classes to available time slots.
+#A llop that runs for each class, joins it with a time slot at the same index, and saves the schedule in a new list.
+
