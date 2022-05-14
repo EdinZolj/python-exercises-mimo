@@ -2,6 +2,10 @@
 # We will replace each number of the passed code parameter with its morse correspondent and return the result.
 # Replace returns the original string if the string to be replaced isnt found.
 
+from lib2to3.pytree import WildcardPattern
+from time import time
+
+
 def convert_to_morse(code):
 
     code = code.replace("1", ".----")
@@ -87,3 +91,9 @@ print(f"Lynn is common friend: {common_lynn}")
 # Classes schduler - Function to loops to match a list of classes to available time slots.
 #A llop that runs for each class, joins it with a time slot at the same index, and saves the schedule in a new list.
 
+def schedule_classes(classes, times):
+    schedule = []
+
+    index = 0
+    while index < len(classes):
+        scheduled_class = classes[index] + ": " + times[index]
