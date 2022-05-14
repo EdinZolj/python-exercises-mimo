@@ -82,3 +82,6 @@ friends_claudio = ["Kim", "Lynn", "Steve"]
 common_lynn = is_common_friend("Lynn", friends_andrina, friends_claudio)
 
 print(f"Lynn is common friend: {common_lynn}")
+
+
+#
