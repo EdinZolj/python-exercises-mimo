@@ -58,3 +58,12 @@ def has_two_for_one(basket):    # Check if the user qualifies for a two-for-one 
 
 basket_items = ["t-shirts", "jeans", "jeans"]
 has_two_for_one(basket_items)
+
+
+def show_schedule(courses):
+    print(f"Monday: {courses[0]}")
+    print(f"Tuesday: {courses[1]}")
+    print(f"Thrusday: {courses[2]}")
+
+courses = ["Algebra", "Statistics", "Machine Learning"]
+show_schedule(courses)
