@@ -18,3 +18,6 @@ def calculate(operator, x, y):
         print(f"Unknown: {operator}")
 
 calculate("-", 30, 10)
+
+
+def has_red
