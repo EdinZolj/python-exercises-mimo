@@ -20,4 +20,9 @@ def calculate(operator, x, y):
 calculate("-", 30, 10)
 
 
-def has_red
+def has_red(rgb_values):
+    if rgb_values[0] > 0:
+        print("Red is in the mix!")
+
+rgb = [153, 255, 51]
+has_red(rgb)
