@@ -26,3 +26,7 @@ def has_red(rgb_values):
 
 rgb = [153, 255, 51]
 has_red(rgb)
+
+
+def display_instructions(sugarfree):
+    
