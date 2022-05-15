@@ -29,4 +29,8 @@ has_red(rgb)
 
 
 def display_instructions(sugarfree):
-    
+    if not sugarfree:
+        print("Enter amount of sugar")
+    print("Select coffee type")
+
+display_instructions(True)
