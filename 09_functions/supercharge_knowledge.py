@@ -52,3 +52,11 @@ def make_waves(number):
 make_waves(3)
 
 
+def count_sheep(amount):
+    counter = 1
+
+    while counter <= amount:
+        print(f"{counter} sheep")
+        counter += 1
+
+count_sheep(5)
