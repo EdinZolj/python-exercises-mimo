@@ -45,3 +45,10 @@ cake = ["flour", "softener butter", "milk", "sugar", "eggs"]
 show_instractions(cake)
 
 
+def make_waves(number):
+    for i in range(number):
+        print("∞∞∞")
+
+make_waves(3)
+
+
