@@ -37,3 +37,11 @@ new_list = update_todos(todo_list)
 print(new_list)
 
 
+def show_instractions(ingrediants):
+    for item in ingrediants:
+        print(f"Stir in: {item}")
+
+cake = ["flour", "softener butter", "milk", "sugar", "eggs"]
+show_instractions(cake)
+
+
