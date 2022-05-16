@@ -60,3 +60,12 @@ def count_sheep(amount):
         counter += 1
 
 count_sheep(5)
+
+
+def help_customers(customers):
+    counter = 1
+    while counter < customers:
+        print(f"Customer no. {counter} go to next free desk")
+        counter += 1
+
+help_customers(3)
