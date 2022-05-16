@@ -28,3 +28,12 @@ add_sports(plans)
 print(plans)
 
 
+def update_todos(todos):
+    todos[2] = "call grandma"
+    return todos
+
+todo_list = ["homework", "walk oreo", "watch tv"]
+new_list = update_todos(todo_list)
+print(new_list)
+
+

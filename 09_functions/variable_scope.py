@@ -7,7 +7,7 @@ def add_bonus(salary):
 add_bonus(1900)
 
 
-# Variables created outside of a function block hve a "global scope".
+# Variables created outside of a function block have a "global scope".
 
 shipping = 10
 
