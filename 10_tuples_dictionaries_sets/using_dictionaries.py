@@ -24,3 +24,8 @@ print(ticket)
 
 personal_data = {"name": "Mac MIller", "telephone": "0177452718"}
 print("name" in personal_data)          # if a certain key is in a dictionery,we use the "in" keyword
+
+
+stock = {"BTC": 23000, "ETH": 2000, "XRP": 0.5}
+has_ETH = "ETH" in stock 
+print(has_ETH)
