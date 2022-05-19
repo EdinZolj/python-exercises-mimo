@@ -1,7 +1,7 @@
 # Tuples groups related pieces of data together.
 # It helps us to group different pieces of data that belong together (closely-related data).
 # We group tuples similarly to list, but we use () instead of {} around the values.
-# We us commas , to separate values in a tuple.
+# We us commas, to separate values in a tuple.
 # Special case: Tuples with only one value end in a comma anyway.
 
 movies = ["Bond 001", "Bond 007", 1958, 2019]

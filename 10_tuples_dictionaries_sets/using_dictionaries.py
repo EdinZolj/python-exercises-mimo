@@ -2,6 +2,7 @@
 # We can loop through the dictonary key with a for loop.
 # Assossiate a new key with a value we code an "=" followed by the value like below "ticket["window] = True".
 # To check if a certain key is in a dictionery, we use the "in" keyword
+# To avoid getting an error when removing a key, its good practice to first use a "in" keyword to check if the key exist.
 
 
 actor_bio = {"name": "Bill Murry", "known for": ["Lost in Traslation", "Rushmore"]}
@@ -23,9 +24,30 @@ print(ticket)
 
 
 personal_data = {"name": "Mac MIller", "telephone": "0177452718"}
-print("name" in personal_data)          # if a certain key is in a dictionery,we use the "in" keyword
+print("name" in personal_data)          # if a certain key is in a dictionery, we use the "in" keyword
 
 
 stock = {"BTC": 23000, "ETH": 2000, "XRP": 0.5}
-has_ETH = "ETH" in stock 
+has_ETH = "ETH" in stock                # To avoid getting an error when removing a key use "in" keyword.
 print(has_ETH)
+
+
+crypto = {"BTC": True, "ETH": True, "LUNA": False}
+if "XRP" in crypto:                         # avoid getting an error by if statemant before removing.
+    crypto.pop("XRP")
+
+
+ticket = {"seat no.": 25, "window": True}
+ticket.pop("window")
+print(ticket)
+
+
+ticket = {"seat no.": 25, "window": True}
+if "destination" in ticket:                 # To avoid getting an error when removing a key use "in" keyword.
+    ticket.pop("destination")
+print(ticket)
+
+
+participants = {"Edin": True, "Andrina": True, "Edina": False}
+andrina = participants.pop("Andrina")
+print(andrina)
